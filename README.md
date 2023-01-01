@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I decided to use this project as my first foray into SCSS. I watched a few YouTube tutorials to get an idea of the syntax and how to stucture the folders and files. I really like the ability to nest selectors within one another, that's very useful, but I did find having to chop and change between so many files frustrating at times.
+I decided to use this project as my first foray into SCSS. I watched a few YouTube tutorials to get an idea of the syntax and how to stucture the folders and files. I really like the ability to nest selectors within one another, that's very useful, but I did find having to chop and change between so many files frustrating at times. Overall I think it's a bit too verbose for a single component like this one, but I could definitely see the value as websites start to get more complex.
 
 While I was working out how everything fit together I decided to make a [SCSS template](https://github.com/wolfgangdotdev/scss-template) that I can generate a new repo through on GitHub, including a handful of NPM packages for running a live server for automatic SCSS recompilation and watcing for changes in the codebase.
 
