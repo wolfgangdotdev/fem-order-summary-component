@@ -1,27 +1,57 @@
-# SCSS Template
+# Frontend Mentor - Order summary card solution
 
-Basic SCSS template for quickly starting a project. Uses several NPM packages alongside custom start and build scripts to automatically compile files to a dist folder. Uses browser-sync to create a live server and watches for changes in html, javascript and SCSS files.
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-![Screenshot](https://user-images.githubusercontent.com/112465173/210162291-09b78a2f-3bef-4b56-b91c-b67b3ab252b5.png)
+## Table of contents
 
-# Usage
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Create a new repository in GitHub using this repo as a template. Clone into newly created repository. From the terminal, run the following command:
+## Overview
 
-```
-npm install
-```
+### The challenge
 
-Node Package Manager will install the required files. Once this is done, run:
+Users should be able to:
 
-```
-npm start
-```
+- See hover states for interactive elements
 
-Your local development server will open in a new browser tab. It will now watch your files for any changes, including recompiling your SCSS files. Once you have finished creating your website, run:
+### Screenshot
 
-```
-npm run build
-```
+![](./screenshot.png)
 
-This will clean out your dist/ folder, recompile all SCSS files, and autoprefix and minify the resulting CSS file. You can now deploy your website to the hosting service of your choice. Be sure to direct your host to the dist/ folder which contains your index.html file, not the root.
+### Links
+
+- [Solution](https://github.com/wolfgangdotdev/fem-order-summary-component)
+- [Live site](https://wolfgangdotdev.github.io/fem-order-summary-component/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- Mobile-first workflow
+- SCSS
+- NPM
+
+### What I learned
+
+I decided to use this project as my first foray into SCSS. I watched a few YouTube tutorials to get an idea of the syntax and how to stucture the folders and files. I really like the ability to nest selectors within one another, that's very useful, but I did find having to chop and change between so many files frustrating at times.
+
+While I was working out how everything fit together I decided to make a [SCSS template](https://github.com/wolfgangdotdev/scss-template) that I can generate a new repo through on GitHub, including a handful of NPM packages for running a live server for automatic SCSS recompilation and watcing for changes in the codebase.
+
+### Useful resources
+
+- [Coder Coder's YouTube channel](https://www.youtube.com/@TheCoderCoder) had some very helpful videos on the basics of SCSS. She explains concepts in a very easy to follow way, such that I was up and running with SCSS in a short amount of time, despite never having used it before.
+
+## Author
+
+- Website - [wolfgang.dev](https://www.wolfgang.dev)
+- Frontend Mentor - [@seanv96](https://www.frontendmentor.io/profile/seanv96)
