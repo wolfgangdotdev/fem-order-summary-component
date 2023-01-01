@@ -1,0 +1,15 @@
+@use "../util" as u;
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../assets/img/pattern-background-desktop.svg);
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: u.$paleblue;
+}
+
+button {
+	cursor: pointer;
+}

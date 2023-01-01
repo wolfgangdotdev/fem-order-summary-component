@@ -3,16 +3,42 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./style.css" />
 		<script src="./js/script.js" defer></script>
 		<title>Document</title>
 	</head>
 	<body>
+		<main class="summary">
+			<div class="summary__img">
+				<img
+					src="./assets/img/illustration-hero.svg"
+					alt="Illustration of a woman dancing to music"
+				/>
+			</div>
+			<div class="summary__content">
+				<h1 class="summary__title">Order Summary</h1>
+				<p class="summary__text">
+					You can now listen to millions of songs, audiobooks, and podcasts on any device
+					anywhere you like!
+				</p>
+				<div class="details">
+					<div class="details__icon">
+						<img src="./assets/img/icon-music.svg" alt="Musical note icon" />
+					</div>
+					<div class="details__text">
+						<p class="details__plan-type">Annual Plan</p>
+						<p class="details__price">$59.99/year</p>
+					</div>
+					<button class="details__change">Change</button>
+				</div>
+				<button class="summary__payment">Proceed to Payment</button>
+				<button class="summary__cancel">Cancel Order</button>
+			</div>
+		</main>
 		<!-- 
 		Order Summary
 
-		You can now listen to millions of songs, audiobooks, and podcasts on any 
-		device anywhere you like!
+		
 	  
 		Annual Plan
 		$59.99/year
@@ -23,12 +49,12 @@
 		Cancel Order 
 		-->
 
-		<div class="attribution">
+		<footer class="attribution">
 			Challenge by
 			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 				>Frontend Mentor</a
 			>. Coded by
 			<a href="https://www.frontendmentor.io/profile/seanv96">Wolfgang Vandenberg</a>.
-		</div>
+		</footer>
 	</body>
 </html>

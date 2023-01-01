@@ -1,0 +1,68 @@
+@use "../util/functions" as f;
+@use "../util" as u;
+
+.summary {
+	background-color: white;
+	width: min(100vw - f.rem(48), f.rem(450));
+	margin-inline: auto;
+	box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+	border-radius: 20px;
+	overflow: hidden;
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+
+		padding-inline: f.rem(24);
+
+		@media (min-width: f.em(600)) {
+			padding-inline: f.rem(48);
+		}
+	}
+
+	&__img {
+		margin-bottom: f.rem(32);
+
+		@media (min-width: f.em(600)) {
+			margin-bottom: f.rem(45);
+		}
+	}
+
+	&__title {
+		margin-bottom: f.rem(17);
+	}
+
+	&__text {
+		margin-bottom: f.rem(24);
+
+		@media (min-width: f.em(20)) {
+		}
+	}
+
+	.details,
+	&__payment {
+		margin-bottom: f.rem(24);
+
+		@media (min-width: f.em(600)) {
+			margin-bottom: f.em(32);
+		}
+	}
+
+	&__payment {
+		background-color: u.$brightblue;
+		box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+		border: none;
+		padding: f.rem(15);
+		border-radius: 11px;
+	}
+
+	&__cancel {
+		margin-bottom: f.rem(32);
+		background-color: transparent;
+		border: none;
+		align-self: center;
+
+		@media (min-width: f.em(48)) {
+		}
+	}
+}
